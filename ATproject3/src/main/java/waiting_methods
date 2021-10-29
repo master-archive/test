@@ -1,0 +1,39 @@
+attributeContains //атрибут содержит
+attributeToBe //точное значение атрибута
+attributeToBeNotEmpty
+
+elementToBeSelected //выбран ли элемент
+elementToBeClickable //виден ли и кликабелен элемент
+
+invisibilityOf //проверка на невидимость элемента
+invisibilityOfAllElements //проверка на невидимость всех элементов из переданного списка
+invisibilityOfElementLocated //проверка на невидимость или отсутствия в DOMе элемента
+invisibilityOfElementWithText //проверка на невидимость или отсутствия в DOMе элемента, предположительно содержащий текст
+
+visibility //все те же самые методы, что и выше, но только для проверки видимости
+
+not(ExpectedCondition<?>condition) //в скобки можно подставить любое из условий, финальное условие будет противоположно
+
+numberOfElementsToBe //ожидание конкретного количества элементов с локаторами
+numberOfElementsToBeLessThan //ожидание количества элементов, меньшего чем
+numberOfElementsToBeMoreThan //ожидание количества элементов, большего чем
+
+presenceOfAllElementsLocatedBy //ожидает появление элемента на веб-странице
+presenceOfElementLocated //ожидает появление элемента в DOMе страницы
+
+stalenessOf //ожидание исчезновения элемента
+
+textToBe //ожидание элемента с определённым текстом
+textToBePresentInElement //ожидание элемента с присутствием данного текста
+textToBePresentInElementValue //ожидание элемента с атрибутом, значение которого содержит конкретный текст
+
+titleContains //ожидание элемента с заголовком, содержащим то или иное значение
+titleIs //жидание элемента с конкретным заголовком
+
+urlContains //ожидание элемента с url, содержащим некоторое значение
+urlMatches //ожидание элемента с точным значением url
+
+
+
+
+
